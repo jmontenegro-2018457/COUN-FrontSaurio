@@ -9,6 +9,7 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 import StarRating from "../../components/StarRating";
 import { AuthContext } from "../../index";
+import '../../CSS/Footer.css'
 
 export const Marro = () => {
   const MAX_STARS = 10;

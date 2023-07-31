@@ -9,6 +9,7 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 import StarRating from "../../components/StarRating";
 import { AuthContext } from "../../index";
+import '../../CSS/Footer.css'
 
 export const Galileo = () => {
   const MAX_STARS = 10;
@@ -331,12 +332,12 @@ export const Galileo = () => {
 
             <br />
 
-            <div class="container-bar fade-in-animation">
+            <div className="container-bar fade-in-animation">
                 <input type="checkbox" id="btn-social" />
-                <label for="btn-social" class="fa fa-play"></label>
-                <div class="icon-social">
+                <label for="btn-social" className="fa fa-play"></label>
+                <div className="icon-social">
                     <a href="https://www.galileo.edu/" target="_blank" rel="noopener noreferrer">
-                        <img src="https://www.galileo.edu/wp-content/themes/galileo-theme/img/logo-header.png" alt="" class="social-logo" />
+                        <img src="https://www.galileo.edu/wp-content/themes/galileo-theme/img/logo-header.png" alt="" className="social-logo" />
                     </a>
                     <a href="https://www.facebook.com/ugalileo" target="_blank" rel="noopener noreferrer" class="fa fa-facebook"></a>
                 </div>
