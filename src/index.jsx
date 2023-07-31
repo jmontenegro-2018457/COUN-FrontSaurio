@@ -22,7 +22,7 @@ import { Vinci } from './Pages/Universidades/Vinci'
 import { Pablo } from './Pages/Universidades/Pablo'
 import { Occi } from './Pages/Universidades/Occi'
 import { Users } from './Pages/ADMIN/Users';
-import { Comentarios } from './Pages/Comentarios';
+import { Comentarios } from './Pages/comentarios';
 import { Perfil } from './Pages/USER/Perfil'
 import { ForgotPasswordPage } from './components/ForgotPasswordPage'
 import { UpdateUser } from './Pages/UpdateUser';
