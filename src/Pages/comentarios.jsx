@@ -37,6 +37,7 @@ export const Comentarios = () => {
 		try {
 			const { data } = await axios.post(`https://coun-back-saurio.vercel.app/comments/save`, form, { headers: headers });
 			console.log(form)
+			console.log(data)
 		} catch (err) {
 			console.log(err)
 		}
