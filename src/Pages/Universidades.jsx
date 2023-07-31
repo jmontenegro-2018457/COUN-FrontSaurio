@@ -1,6 +1,6 @@
 import React from "react"
 import imagen from '../assets/logo.png'
-import '../css/cards.css'
+import '../CSS/cards.css'
 import { Link } from "react-router-dom"
 
 export const Universidades = () => {
