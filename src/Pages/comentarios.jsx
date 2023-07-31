@@ -64,17 +64,16 @@ export const Comentarios = () => {
 	  };
 	  
 	  useEffect(() => {
+		// Lógica para obtener la universidad
 		getUniversity();
-	  }, [dataUser]);
-	  
-	  useEffect(() => {
-		console.log(university); // Realizar acciones con university después de que se actualiza
-	  }, [university]);
-
-	  useEffect(() => {
-       
-        getComments();
-    }, [dataUser])
+	
+		// Lógica para mostrar la universidad en la consola
+		console.log(university);
+	
+		// Lógica para obtener los comentarios
+		getComments();
+	}, [dataUser, university]);
+	
 
     return (
         <>
