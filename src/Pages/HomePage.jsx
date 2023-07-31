@@ -12,7 +12,7 @@ export const HomePage = () => {
 
           <div className="contenedorHP">
             <div>
-              <img src={logo} alt="Person" className="hpIMG" />
+              <img src={logo}  className="hpIMG" />
             </div>
 
             <div className="containerHP">
